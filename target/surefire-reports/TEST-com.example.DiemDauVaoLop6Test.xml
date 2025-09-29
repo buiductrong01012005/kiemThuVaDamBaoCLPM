@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.DiemDauVaoLop6Test" time="0.1" tests="45" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1258"/>
+    <property name="java.class.path" value="F:\Study\class\kiemThu\demo\target\test-classes;F:\Study\class\kiemThu\demo\target\classes;C:\Users\Bui Duc Trong\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Bui Duc Trong\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Bui Duc Trong\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Bui Duc Trong\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Bui Duc Trong\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Bui Duc Trong\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Bui Duc Trong\AppData\Local\Temp\surefire7844600804103143798\surefirebooter2401212902757362363.jar C:\Users\Bui Duc Trong\AppData\Local\Temp\surefire7844600804103143798 2025-09-24T12-41-21_744-jvmRun1 surefire18380271099511746289tmp surefire_017481021330318384937tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\Study\class\kiemThu\demo\target\test-classes;F:\Study\class\kiemThu\demo\target\classes;C:\Users\Bui Duc Trong\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Bui Duc Trong\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Bui Duc Trong\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Bui Duc Trong\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Bui Duc Trong\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Bui Duc Trong\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Bui Duc Trong"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\Study\class\kiemThu\demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Bui Duc Trong\AppData\Local\Temp\surefire7844600804103143798\surefirebooter2401212902757362363.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+6-LTS"/>
+    <property name="user.name" value="Bui Duc Trong"/>
+    <property name="stdout.encoding" value="Cp1258"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.7+6"/>
+    <property name="localRepository" value="C:\Users\Bui Duc Trong\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\BUIDUC~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="F:\Study\class\kiemThu\demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1258"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-11.0.28.6-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Bui Duc Trong\AppData\Local\Programs\Python\Python310\;C:\Users\Bui Duc Trong\AppData\Local\Programs\Python\Python310\Scripts\;C:\Program Files\nodejs\;C:\Program Files\CMake\bin;C:\Users\Bui Duc Trong\Downloads\x86_64-15.2.0-release-posix-seh-ucrt-rt_v13-rev0\mingw64\bin;C:\Users\Bui Duc Trong\Downloads\gradle-9.2.0-milestone-2-bin\gradle-9.2.0-milestone-2\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Java\apache-maven-3.9.11\bin;C:\Users\Bui Duc Trong\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Bui Duc Trong\AppData\Local\Programs\Python\Python310\;C:\Users\Bui Duc Trong\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Bui Duc Trong\AppData\Local\Programs\Python\Python313\;C:\Users\Bui Duc Trong\AppData\Local\Programs\Python\Launcher\;C:\Users\Bui Duc Trong\AppData\Local\Microsoft\WindowsApps;C:\Users\Bui Duc Trong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bui Duc Trong\AppData\Roaming\npm;C:\Users\Bui Duc Trong\.dotnet\tools;c:\Users\Bui Duc Trong\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1258"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.7+6-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testDiemDauVaoLop62" classname="com.example.DiemDauVaoLop6Test" time="0.041"/>
+  <testcase name="testDiemDauVaoLop63" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop64" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop65" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop66" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop67" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop68" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop69" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop610" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop611" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop612" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop613" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop614" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop615" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop616" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop617" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop618" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop619" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop620" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop621" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop622" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop623" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop624" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop625" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop626" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop627" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop628" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop629" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop630" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop631" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop632" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop633" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop634" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop635" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop636" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop637" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop638" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop639" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop640" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop641" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop642" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop643" classname="com.example.DiemDauVaoLop6Test" time="0.016"/>
+  <testcase name="testDiemDauVaoLop644" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop645" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+  <testcase name="testDiemDauVaoLop6" classname="com.example.DiemDauVaoLop6Test" time="0"/>
+</testsuite>
