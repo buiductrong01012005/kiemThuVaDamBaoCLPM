@@ -105,4 +105,48 @@ public final class DiemDauVaoLop6 {
         }
     }
 
+    /**
+     * Phuong thuc kiem thu trang C2.
+     *
+     * @param diemToanInput diem toan.
+     *
+     * @param diemVanInput  diem van.
+     *
+     * @param kq            chuoi ket qua.
+     *
+     * @return xep loai hoc luc.
+     */
+    public String kiemThuHopTrangC2(float diemToanInput, float diemVanInput, StringBuilder kq) {
+        kq.setLength(0);
+        this.setToan(diemToanInput);
+        this.setVan(diemVanInput);
+
+        kq.append("1");
+        kq.append("2");
+
+        if (this.toan < DIEM_MIN || this.toan > DIEM_MAX || this.van < DIEM_MIN || this.van > DIEM_MAX) {
+            kq.append("3");
+            return "Diem khong hop le";
+        }
+
+        kq.append("4");
+        if (this.toan >= DIEM_GIOI && this.van >= DIEM_GIOI) {
+            kq.append("5");
+            return "Gioi";
+        }
+        kq.append("6");
+        if (this.toan >= DIEM_KHA && this.van >= DIEM_KHA) {
+            kq.append("7");
+            return "Kha";
+        }
+        kq.append("8");
+        if (this.toan >= DIEM_TRUNG_BINH && this.van >= DIEM_TRUNG_BINH) {
+            kq.append("9");
+            return "Trung Binh";
+        }
+        kq.append("10");
+        return "Yeu";
+
+    }
+
 }

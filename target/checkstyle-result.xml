@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.45.1">
-<file name="F:\Study\class\kiemThu\demo\src\test\java\com\example\DiemDauVaoLop6Test.java">
+<file name="F:\Study\class\kiemThu\demo\src\main\java\com\example\DiemDauVaoLop6.java">
+</file>
+<file name="F:\Study\class\kiemThu\demo\src\test\java\com\example\DiemDauVaoLop6BienvsDTTest.java">
+</file>
+<file name="F:\Study\class\kiemThu\demo\src\test\java\com\example\DienDauVaoLop6NhanhC2Test.java">
 </file>
 </checkstyle>

@@ -30,10 +30,10 @@ public final class DiemDauVaoLop6 {
     /**
      * Constructor mac dinh.
      */
-<span class="nc" id="L33">    public DiemDauVaoLop6() {</span>
-<span class="nc" id="L34">        this.toan = 0;</span>
-<span class="nc" id="L35">        this.van = 0;</span>
-<span class="nc" id="L36">    }</span>
+<span class="fc" id="L33">    public DiemDauVaoLop6() {</span>
+<span class="fc" id="L34">        this.toan = 0;</span>
+<span class="fc" id="L35">        this.van = 0;</span>
+<span class="fc" id="L36">    }</span>
 
     /**
      * Constructor.
@@ -70,8 +70,8 @@ public final class DiemDauVaoLop6 {
      * @param toan diem toan
      */
     public void setToan(float toan) {
-<span class="nc" id="L73">        this.toan = toan;</span>
-<span class="nc" id="L74">    }</span>
+<span class="fc" id="L73">        this.toan = toan;</span>
+<span class="fc" id="L74">    }</span>
 
     /**
      * Set diem van.
@@ -79,8 +79,8 @@ public final class DiemDauVaoLop6 {
      * @param van diem van
      */
     public void setVan(float van) {
-<span class="nc" id="L82">        this.van = van;</span>
-<span class="nc" id="L83">    }</span>
+<span class="fc" id="L82">        this.van = van;</span>
+<span class="fc" id="L83">    }</span>
 
     /**
      * Xep loai hoc luc cua hoc sinh.
@@ -103,6 +103,50 @@ public final class DiemDauVaoLop6 {
         } else {
 <span class="fc" id="L104">            return &quot;Yeu&quot;;</span>
         }
+    }
+
+    /**
+     * Phuong thuc kiem thu trang C2.
+     *
+     * @param diemToanInput diem toan.
+     *
+     * @param diemVanInput  diem van.
+     *
+     * @param kq            chuoi ket qua.
+     *
+     * @return xep loai hoc luc.
+     */
+    public String kiemThuHopTrangC2(float diemToanInput, float diemVanInput, StringBuilder kq) {
+<span class="fc" id="L120">        kq.setLength(0);</span>
+<span class="fc" id="L121">        this.setToan(diemToanInput);</span>
+<span class="fc" id="L122">        this.setVan(diemVanInput);</span>
+
+<span class="fc" id="L124">        kq.append(&quot;1&quot;);</span>
+<span class="fc" id="L125">        kq.append(&quot;2&quot;);</span>
+
+<span class="pc bpc" id="L127" title="3 of 8 branches missed.">        if (this.toan &lt; DIEM_MIN || this.toan &gt; DIEM_MAX || this.van &lt; DIEM_MIN || this.van &gt; DIEM_MAX) {</span>
+<span class="fc" id="L128">            kq.append(&quot;3&quot;);</span>
+<span class="fc" id="L129">            return &quot;Diem khong hop le&quot;;</span>
+        }
+
+<span class="fc" id="L132">        kq.append(&quot;4&quot;);</span>
+<span class="pc bpc" id="L133" title="1 of 4 branches missed.">        if (this.toan &gt;= DIEM_GIOI &amp;&amp; this.van &gt;= DIEM_GIOI) {</span>
+<span class="fc" id="L134">            kq.append(&quot;5&quot;);</span>
+<span class="fc" id="L135">            return &quot;Gioi&quot;;</span>
+        }
+<span class="fc" id="L137">        kq.append(&quot;6&quot;);</span>
+<span class="pc bpc" id="L138" title="1 of 4 branches missed.">        if (this.toan &gt;= DIEM_KHA &amp;&amp; this.van &gt;= DIEM_KHA) {</span>
+<span class="fc" id="L139">            kq.append(&quot;7&quot;);</span>
+<span class="fc" id="L140">            return &quot;Kha&quot;;</span>
+        }
+<span class="fc" id="L142">        kq.append(&quot;8&quot;);</span>
+<span class="pc bpc" id="L143" title="1 of 4 branches missed.">        if (this.toan &gt;= DIEM_TRUNG_BINH &amp;&amp; this.van &gt;= DIEM_TRUNG_BINH) {</span>
+<span class="fc" id="L144">            kq.append(&quot;9&quot;);</span>
+<span class="fc" id="L145">            return &quot;Trung Binh&quot;;</span>
+        }
+<span class="fc" id="L147">        kq.append(&quot;10&quot;);</span>
+<span class="fc" id="L148">        return &quot;Yeu&quot;;</span>
+
     }
 
 }

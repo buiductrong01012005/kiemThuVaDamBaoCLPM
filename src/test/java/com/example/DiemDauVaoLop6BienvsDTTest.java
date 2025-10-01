@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /**
  * Unit test for simple App.
  */
-class DiemDauVaoLop6Test {
+class DiemDauVaoLop6BienvsDTTest {
     /**
      * Diem dau vao lop 6 Test.
      *
