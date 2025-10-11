@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.DiemDauVaoLop6BienvsDTTest" time="0.091" tests="45" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.DiemDauVaoLop6BienvsDTTest" time="0.111" tests="45" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\Bui Duc Trong\AppData\Local\Temp\surefire6238239653474070290\surefirebooter16889007082270400145.jar C:\Users\Bui Duc Trong\AppData\Local\Temp\surefire6238239653474070290 2025-10-01T11-58-13_066-jvmRun1 surefire3085470465383888177tmp surefire_01303197293761029333tmp"/>
+    <property name="sun.java.command" value="C:\Users\Bui Duc Trong\AppData\Local\Temp\surefire17975428050252604546\surefirebooter13263559812516854289.jar C:\Users\Bui Duc Trong\AppData\Local\Temp\surefire17975428050252604546 2025-10-11T17-58-09_245-jvmRun1 surefire6841224720781317472tmp surefire_07560165613403397457tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="F:\Study\class\kiemThu\demo\target\test-classes;F:\Study\class\kiemThu\demo\target\classes;C:\Users\Bui Duc Trong\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Bui Duc Trong\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Bui Duc Trong\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Bui Duc Trong\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Bui Duc Trong\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Bui Duc Trong\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Bui Duc Trong\AppData\Local\Temp\surefire6238239653474070290\surefirebooter16889007082270400145.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Bui Duc Trong\AppData\Local\Temp\surefire17975428050252604546\surefirebooter13263559812516854289.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+6-LTS"/>
@@ -59,19 +59,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testDiemDauVaoLop62" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0.047"/>
-  <testcase name="testDiemDauVaoLop63" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0.001"/>
+  <testcase name="testDiemDauVaoLop62" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0.056"/>
+  <testcase name="testDiemDauVaoLop63" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0.005"/>
   <testcase name="testDiemDauVaoLop64" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
-  <testcase name="testDiemDauVaoLop65" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0.001"/>
+  <testcase name="testDiemDauVaoLop65" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop66" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop67" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop68" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
-  <testcase name="testDiemDauVaoLop69" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0.001"/>
+  <testcase name="testDiemDauVaoLop69" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop610" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop611" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop612" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
-  <testcase name="testDiemDauVaoLop613" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
-  <testcase name="testDiemDauVaoLop614" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
+  <testcase name="testDiemDauVaoLop613" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0.005"/>
+  <testcase name="testDiemDauVaoLop614" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0.001"/>
   <testcase name="testDiemDauVaoLop615" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop616" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop617" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
@@ -79,7 +79,7 @@
   <testcase name="testDiemDauVaoLop619" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop620" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop621" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
-  <testcase name="testDiemDauVaoLop622" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0.002"/>
+  <testcase name="testDiemDauVaoLop622" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop623" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop624" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop625" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
@@ -87,11 +87,11 @@
   <testcase name="testDiemDauVaoLop627" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0.001"/>
   <testcase name="testDiemDauVaoLop628" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop629" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
-  <testcase name="testDiemDauVaoLop630" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0.001"/>
+  <testcase name="testDiemDauVaoLop630" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop631" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop632" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop633" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
-  <testcase name="testDiemDauVaoLop634" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
+  <testcase name="testDiemDauVaoLop634" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0.004"/>
   <testcase name="testDiemDauVaoLop635" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop636" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop637" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0.001"/>
@@ -101,7 +101,7 @@
   <testcase name="testDiemDauVaoLop641" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop642" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop643" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
-  <testcase name="testDiemDauVaoLop644" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
-  <testcase name="testDiemDauVaoLop645" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0.001"/>
+  <testcase name="testDiemDauVaoLop644" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0.001"/>
+  <testcase name="testDiemDauVaoLop645" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
   <testcase name="testDiemDauVaoLop6" classname="com.example.DiemDauVaoLop6BienvsDTTest" time="0"/>
 </testsuite>

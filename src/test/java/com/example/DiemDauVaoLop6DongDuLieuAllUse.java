@@ -5,28 +5,31 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
- * Unit test for Bai tap Kiem Thu.
+ * Unit test for Bai Tap Kiem Thu.
  */
-public class DienDauVaoLop6NhanhC2Test {
+public class DiemDauVaoLop6DongDuLieuAllUse {
 
+    /*
+     * Unit test for Bai tap Kiem Thu.
+     */
     private DiemDauVaoLop6 diemDauVaoLop6 = new DiemDauVaoLop6();
 
     @Test
     public void testDiemDauVaoLop6() {
-        final float toan = -1f;
-        final float van = 0f;
+        final float toan = 11f;
+        final float van = 11f;
         StringBuilder kq = new StringBuilder();
-        assertEquals("Diem khong hop le", diemDauVaoLop6.kiemThuHopTrangC2(toan, van, kq));
-        assertEquals("123", kq.toString());
+        assertEquals("Diem khong hop le", diemDauVaoLop6.kiemThuDongDuLieu(toan, van, kq));
+        assertEquals("1-2T-3", kq.toString());
     }
 
     @Test
     public void testDiemDauVaoLop6_1() {
         final float toan = 10f;
-        final float van = 9f;
+        final float van = 10f;
         StringBuilder kq = new StringBuilder();
-        assertEquals("Gioi", diemDauVaoLop6.kiemThuHopTrangC2(toan, van, kq));
-        assertEquals("1245", kq.toString());
+        assertEquals("Gioi", diemDauVaoLop6.kiemThuDongDuLieu(toan, van, kq));
+        assertEquals("1-2F-4T-5", kq.toString());
     }
 
     @Test
@@ -34,8 +37,8 @@ public class DienDauVaoLop6NhanhC2Test {
         final float toan = 7f;
         final float van = 7f;
         StringBuilder kq = new StringBuilder();
-        assertEquals("Kha", diemDauVaoLop6.kiemThuHopTrangC2(toan, van, kq));
-        assertEquals("12467", kq.toString());
+        assertEquals("Kha", diemDauVaoLop6.kiemThuDongDuLieu(toan, van, kq));
+        assertEquals("1-2F-4F-6T-7", kq.toString());
     }
 
     @Test
@@ -43,8 +46,8 @@ public class DienDauVaoLop6NhanhC2Test {
         final float toan = 5f;
         final float van = 5f;
         StringBuilder kq = new StringBuilder();
-        assertEquals("Trung Binh", diemDauVaoLop6.kiemThuHopTrangC2(toan, van, kq));
-        assertEquals("124689", kq.toString());
+        assertEquals("Trung Binh", diemDauVaoLop6.kiemThuDongDuLieu(toan, van, kq));
+        assertEquals("1-2F-4F-6F-8T-9", kq.toString());
     }
 
     @Test
@@ -52,8 +55,7 @@ public class DienDauVaoLop6NhanhC2Test {
         final float toan = 0f;
         final float van = 0f;
         StringBuilder kq = new StringBuilder();
-        assertEquals("Yeu", diemDauVaoLop6.kiemThuHopTrangC2(toan, van, kq));
-        assertEquals("1246810", kq.toString());
+        assertEquals("Yeu", diemDauVaoLop6.kiemThuDongDuLieu(toan, van, kq));
+        assertEquals("1-2F-4F-6F-8F-10", kq.toString());
     }
-
 }

@@ -146,7 +146,54 @@ public final class DiemDauVaoLop6 {
         }
 <span class="fc" id="L147">        kq.append(&quot;10&quot;);</span>
 <span class="fc" id="L148">        return &quot;Yeu&quot;;</span>
+    }
 
+    /**
+     * Phuong thuc kiem thu dong du lieu.
+     *
+     * @param diemToanInput nhap diem toan.
+     * @param diemVanInput  nhap diem van.
+     * @param kq            chuoi ket qua.
+     * @return xep loai hoc luc.
+     */
+    public String kiemThuDongDuLieu(float diemToanInput, float diemVanInput, StringBuilder kq) {
+<span class="nc" id="L160">        kq.setLength(0);</span>
+<span class="nc" id="L161">        this.setToan(diemToanInput);</span>
+<span class="nc" id="L162">        this.setVan(diemVanInput);</span>
+
+<span class="nc" id="L164">        kq.append(&quot;1-&quot;);</span>
+<span class="nc" id="L165">        kq.append(&quot;2&quot;);</span>
+
+<span class="nc bnc" id="L167" title="All 8 branches missed.">        if (this.toan &lt; DIEM_MIN || this.toan &gt; DIEM_MAX || this.van &lt; DIEM_MIN || this.van &gt; DIEM_MAX) {</span>
+<span class="nc" id="L168">            kq.append(&quot;T-&quot;);</span>
+<span class="nc" id="L169">            kq.append(&quot;3&quot;);</span>
+<span class="nc" id="L170">            return &quot;Diem khong hop le&quot;;</span>
+        }
+<span class="nc" id="L172">        kq.append(&quot;F-&quot;);</span>
+
+<span class="nc" id="L174">        kq.append(&quot;4&quot;);</span>
+<span class="nc bnc" id="L175" title="All 4 branches missed.">        if (this.toan &gt;= DIEM_GIOI &amp;&amp; this.van &gt;= DIEM_GIOI) {</span>
+<span class="nc" id="L176">            kq.append(&quot;T-&quot;);</span>
+<span class="nc" id="L177">            kq.append(&quot;5&quot;);</span>
+<span class="nc" id="L178">            return &quot;Gioi&quot;;</span>
+        }
+<span class="nc" id="L180">        kq.append(&quot;F-&quot;);</span>
+<span class="nc" id="L181">        kq.append(&quot;6&quot;);</span>
+<span class="nc bnc" id="L182" title="All 4 branches missed.">        if (this.toan &gt;= DIEM_KHA &amp;&amp; this.van &gt;= DIEM_KHA) {</span>
+<span class="nc" id="L183">            kq.append(&quot;T-&quot;);</span>
+<span class="nc" id="L184">            kq.append(&quot;7&quot;);</span>
+<span class="nc" id="L185">            return &quot;Kha&quot;;</span>
+        }
+<span class="nc" id="L187">        kq.append(&quot;F-&quot;);</span>
+<span class="nc" id="L188">        kq.append(&quot;8&quot;);</span>
+<span class="nc bnc" id="L189" title="All 4 branches missed.">        if (this.toan &gt;= DIEM_TRUNG_BINH &amp;&amp; this.van &gt;= DIEM_TRUNG_BINH) {</span>
+<span class="nc" id="L190">            kq.append(&quot;T-&quot;);</span>
+<span class="nc" id="L191">            kq.append(&quot;9&quot;);</span>
+<span class="nc" id="L192">            return &quot;Trung Binh&quot;;</span>
+        }
+<span class="nc" id="L194">        kq.append(&quot;F-&quot;);</span>
+<span class="nc" id="L195">        kq.append(&quot;10&quot;);</span>
+<span class="nc" id="L196">        return &quot;Yeu&quot;;</span>
     }
 
 }

@@ -146,7 +146,54 @@ public final class DiemDauVaoLop6 {
         }
         kq.append("10");
         return "Yeu";
+    }
 
+    /**
+     * Phuong thuc kiem thu dong du lieu.
+     *
+     * @param diemToanInput nhap diem toan.
+     * @param diemVanInput  nhap diem van.
+     * @param kq            chuoi ket qua.
+     * @return xep loai hoc luc.
+     */
+    public String kiemThuDongDuLieu(float diemToanInput, float diemVanInput, StringBuilder kq) {
+        kq.setLength(0);
+        this.setToan(diemToanInput);
+        this.setVan(diemVanInput);
+
+        kq.append("1-");
+        kq.append("2");
+
+        if (this.toan < DIEM_MIN || this.toan > DIEM_MAX || this.van < DIEM_MIN || this.van > DIEM_MAX) {
+            kq.append("T-");
+            kq.append("3");
+            return "Diem khong hop le";
+        }
+        kq.append("F-");
+
+        kq.append("4");
+        if (this.toan >= DIEM_GIOI && this.van >= DIEM_GIOI) {
+            kq.append("T-");
+            kq.append("5");
+            return "Gioi";
+        }
+        kq.append("F-");
+        kq.append("6");
+        if (this.toan >= DIEM_KHA && this.van >= DIEM_KHA) {
+            kq.append("T-");
+            kq.append("7");
+            return "Kha";
+        }
+        kq.append("F-");
+        kq.append("8");
+        if (this.toan >= DIEM_TRUNG_BINH && this.van >= DIEM_TRUNG_BINH) {
+            kq.append("T-");
+            kq.append("9");
+            return "Trung Binh";
+        }
+        kq.append("F-");
+        kq.append("10");
+        return "Yeu";
     }
 
 }
